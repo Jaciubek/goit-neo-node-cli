@@ -1,5 +1,19 @@
 {
+  "name": "goit-node-cli",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Slawomir Jaciubek",
+  "license": "ISC",
   "dependencies": {
-    "commander": "^14.0.1"
+    "commander": "^12.0.0",
+    "nanoid": "^5.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
