@@ -1,6 +1,6 @@
-# goit-neo-node-cli
+# node_tasks
 
-Homework. Topic 2. Creating Console Applications
+# Homework. Topic 2. Creating Console Applications
 
 
 
@@ -17,7 +17,7 @@ Create a variable called contactsPath and assign it the path to the contacts.jso
 Add asynchronous functions to manage the contacts collection. In these functions, use the fs module and its methods readFile() and writeFile(). Each function should return the required data using the return statement. Console output must not be included in these functions.
 Export the created functions.
 
-
+```
 *// contacts.js/*
  * Uncomment and assign a value
  * const contactsPath = ;
@@ -37,6 +37,7 @@ async function addContact(name, email, phone) {
   *// ...your code. Returns the added contact object (with id).*
 }
 
+```
 
 
 ## Step 3
@@ -49,7 +50,7 @@ Then use the provided invokeAction() function, which receives the type of action
 
 Run the following commands in the terminal to ensure the code works as expected:
 
-
+```
 
 *# Retrieve and display the full list of contacts as a table (console.table)*
 node index.js -a list
@@ -63,3 +64,4 @@ node index.js -a add -n Mango -e mango@gmail.com -p 322-22-22
 *# Remove a contact and display the deleted contact object or null if no contact with such ID exists.*
 node index.js -a remove -i qdggE76Jtbfd9eWJHrssH
 
+```
